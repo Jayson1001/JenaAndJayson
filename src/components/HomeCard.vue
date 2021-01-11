@@ -2,7 +2,7 @@
   <div class="body">
     <div class="headerContainer">
       <div class="header">Jena + JSON</div>
-      <div class="subheader">Web Development Consultanting Firm</div>
+      <div class="subheader">Web Development Consulting Firm</div>
     </div>
     <div class="mainContainer">
       <div class="servicesContainer">
@@ -22,6 +22,8 @@
       <div class="help">NEED HELP WITH YOUR PROJECT?<br>LET US KNOW HOW WE CAN HELP.</div>
       <button class="helpButton">Help</button>
     </div>
+    <div class="test"></div>
+    <div class="tesst"></div>
   </div>
 </template>
 
@@ -93,5 +95,16 @@ export default {
   font-family: "Roboto";
   margin-top: 25px;
   margin-left: 300px;
+}
+
+.test {
+  height: 200px;
+  width: 100%;
+  background-color: none;
+}
+.tesst {
+  height: 200px;
+  width: 100%;
+  background-color: lavender;
 }
 </style>
